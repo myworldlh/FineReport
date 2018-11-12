@@ -1,6 +1,6 @@
 # FineReport
 
-需要在网页中获取报表填报页面的一个按钮，并执行点击事件：
+```需要在网页中获取报表填报页面的一个按钮，并执行点击事件：
 document.getElementById('reportFrame').contentWindow.contentPane.getWidgetByName('控件名').fireEvent('click') 
 //////获取控件
 contentPane.parameterEl.getWidgetByName('widgetname')
@@ -65,3 +65,4 @@ contentPane监听事件
 方法 说明
 startload 加载起始
 afterload 加载结束
+```
